@@ -29,6 +29,23 @@
       ]
     },
     {
+      "name": "Design Tokens / Colors",
+      "path": "./output/styles/colors.json",
+      "filter": {
+        "types": [
+          "color"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "to-style-dictionary",
+          "options": {
+            "formatName": "kebabCase"
+          }
+        }
+      ]
+    },
+    {
       "name": "Design Tokens / Text Styles",
       "path": "./output/styles/text-styles.css",
       "filter": {
