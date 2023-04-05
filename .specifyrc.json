@@ -29,13 +29,8 @@
       ]
     },
     {
-      "name": "Design Tokens / Colors",
-      "path": "./output/styles/colors.json",
-      "filter": {
-        "types": [
-          "color"
-        ]
-      },
+      "name": "Design Tokens",
+      "path": "./output/styles/tokens.json",
       "parsers": [
         {
           "name": "to-style-dictionary",
