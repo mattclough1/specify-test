@@ -7,7 +7,6 @@
   --button-primary-surface-disabled: rgb(8, 51, 102);
   --button-primary-surface-focus: rgb(0, 86, 187);
   --button-primary-surface-hover: rgb(8, 123, 255);
-  --button-primary-surface-rest: rgb(0, 86, 187);
   --button-primary-text-active: rgb(255, 255, 255);
   --button-primary-text-disabled: rgb(0, 72, 153);
   --button-primary-text-focus: rgb(255, 255, 255);
@@ -17,7 +16,7 @@
   --core-blue-100: rgb(8, 51, 102);
   --core-blue-110: rgb(0, 24, 51);
   --core-blue-20: rgb(225, 239, 254);
-  --core-blue-30: rgb(190, 220, 254);
+  --core-blue-30: rgb(187, 219, 255);
   --core-blue-40: rgb(139, 190, 253);
   --core-blue-50: rgb(78, 160, 253);
   --core-blue-60: rgb(8, 123, 255);
