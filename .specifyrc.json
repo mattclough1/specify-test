@@ -7,17 +7,13 @@
       "name": "Design Tokens / Colors",
       "path": "./output/styles/colors.css",
       "filter": {
-        "types": [
-          "color"
-        ]
+        "types": ["color"]
       },
       "parsers": [
         {
           "name": "sort-by",
           "options": {
-            "keys": [
-              "name"
-            ]
+            "keys": ["name"]
           }
         },
         {
@@ -30,34 +26,19 @@
     },
     {
       "name": "Design Tokens",
-      "path": "./output/styles/tokens.json",
-      "parsers": [
-        {
-          "name": "to-style-dictionary",
-          "options": {
-            "formatName": "kebabCase"
-          }
-        }
-      ]
+      "path": "./output/styles/tokens.json"
     },
     {
       "name": "Design Tokens / Text Styles",
       "path": "./output/styles/text-styles.css",
       "filter": {
-        "types": [
-          "textStyle"
-        ]
+        "types": ["textStyle"]
       },
       "parsers": [
         {
           "name": "to-css-text-style",
           "options": {
-            "exclude": [
-              "color",
-              "text-indent",
-              "vertical-align",
-              "text-align"
-            ],
+            "exclude": ["color", "text-indent", "vertical-align", "text-align"],
             "relativeLineHeight": true,
             "genericFamily": "serif"
           }
@@ -68,18 +49,13 @@
       "name": "Design Tokens / Import font files in CSS",
       "path": "./output/styles/fonts.css",
       "filter": {
-        "types": [
-          "font"
-        ]
+        "types": ["font"]
       },
       "parsers": [
         {
           "name": "to-css-font-import",
           "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ],
+            "formats": ["woff", "woff2"],
             "fontsPath": "../fonts"
           }
         }
@@ -89,18 +65,13 @@
       "name": "Design Tokens / Import font files",
       "path": "./output/fonts",
       "filter": {
-        "types": [
-          "font"
-        ]
+        "types": ["font"]
       },
       "parsers": [
         {
           "name": "convert-font",
           "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ]
+            "formats": ["woff", "woff2"]
           }
         }
       ]
@@ -109,9 +80,7 @@
       "name": "Design Tokens / Vectors",
       "path": "./output/vectors",
       "filter": {
-        "types": [
-          "vector"
-        ]
+        "types": ["vector"]
       },
       "parsers": [
         {
